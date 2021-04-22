@@ -2,8 +2,8 @@
 
 one:
   content: MyString
-  menu_item: one
+  item: one
 
 two:
   content: MyString
-  menu_item: two
+  item: two
