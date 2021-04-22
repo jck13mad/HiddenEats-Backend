@@ -14,13 +14,13 @@ ActiveRecord::Schema.define(version: 2021_04_08_200052) do
 
   create_table "comments", force: :cascade do |t|
     t.string "content"
-    t.integer "menu_item_id", null: false
+    t.integer "item_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["menu_item_id"], name: "index_comments_on_menu_item_id"
+    t.index ["item_id"], name: "index_comments_on_item_id"
   end
 
-  create_table "menu_items", force: :cascade do |t|
+  create_table "items", force: :cascade do |t|
     t.string "name"
     t.string "image"
     t.text "description"
@@ -29,5 +29,5 @@ ActiveRecord::Schema.define(version: 2021_04_08_200052) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "comments", "menu_items"
+  add_foreign_key "comments", "items"
 end

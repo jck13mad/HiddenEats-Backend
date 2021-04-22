@@ -1,3 +1,3 @@
 class Comment < ApplicationRecord
-  belongs_to :menu_item
+  belongs_to :item
 end

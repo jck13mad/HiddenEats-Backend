@@ -1,6 +1,6 @@
-class CreateMenuItems < ActiveRecord::Migration[6.1]
+class CreateItems < ActiveRecord::Migration[6.1]
   def change
-    create_table :menu_items do |t|
+    create_table :items do |t|
       t.string :name
       t.string :image
       t.text :description
