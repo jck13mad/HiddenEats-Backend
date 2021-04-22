@@ -1,7 +1,8 @@
 class CommentsController < ApplicationController
 
     def index 
-        render json: Comment.all 
+        comments = Comment.all
+        render json: comments 
     end
 
     def create 
@@ -15,7 +16,8 @@ class CommentsController < ApplicationController
     end
 
     def destroy 
-        Comment.find(params[:id]).destroy 
+        comment = Comment.find(params[:id]) 
+        comment.destroy
     end
 
     private 
