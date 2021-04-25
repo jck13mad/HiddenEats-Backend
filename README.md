@@ -7,7 +7,7 @@
 
   <li>Run bundle install</li>
   
-  </li>Run rails db:migrate</li>
+  <li>Run rails db:migrate</li>
   
   <li>Run rails db:seed</li>
 
