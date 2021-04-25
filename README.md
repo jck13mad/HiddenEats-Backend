@@ -1,24 +1,17 @@
-# README
+<h1>Hidden Eats</h1>
+</br>
+<h3>Installation:</h3>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<ul>
+  <li>Clone this repo</li>
 
-Things you may want to cover:
+  <li>Run bundle install</li>
+  
+  </li>Run rails db:migrate</li>
+  
+  <li>Run rails db:seed</li>
 
-* Ruby version
+  <li>Run rails s in your terminal</li>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  <li>To explore the Rails API, open up your browser to "http://localhost:3000" and use RESTful routes to view cocktail index.</li>
+ </ul>
